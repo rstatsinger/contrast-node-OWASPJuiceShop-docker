@@ -1,4 +1,4 @@
-# Contrast Node.js agent deployment in Docker
+# Contrast Node.js agent deployment in Dockerized OWASP juice-shop
 
 This is the Node.js OWASP juice-shop app, instrumented with Contrast Security, and running in a Docker container to isolate it from your environment.
 ## Prerequisites
