@@ -4,7 +4,7 @@ This is the Node.js OWASP juice-shop app, instrumented with Contrast Security, a
 ## Prerequisites
 
 
-git and docker
+Just git and docker
 
 ## Instructions
 
