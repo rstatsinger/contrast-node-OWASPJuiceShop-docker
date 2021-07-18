@@ -9,7 +9,7 @@ git and docker
 ## Instructions
 
 1. Clone this repo
-2. Drop your contrast_security.yaml file into the project root directory
+2. Drop your contrast_security.yaml file for Node.js into the project root directory
 3. Run the **build** script
 4. Run the **start** script
 5. Interact with the application, which should be running on your desktop at http://localhost:3000
