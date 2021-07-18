@@ -1,0 +1,11 @@
+# Start from an existing app image
+FROM bkimminich/juice-shop
+
+COPY contrast_security.yaml /juice-shop/.
+WORKDIR /juice-shop
+
+# Add in the Contrast agent
+RUN npm install --production @contrast/agent
+
+# Change the startup command to preload Contrast agent
+CMD ["node", "-r", "@contrast/agent", "build/app.js"]
