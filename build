@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Should be run with exactly one command-line argument, which contains the
+# path to the Dockerfile which will be built
+
+docker build --rm -t juiceshop:contrast -f ./Dockerfile.from-app-image .
